@@ -1,0 +1,104 @@
+ [
+        {
+        "code":"OD",
+        "value":1,
+        "description": "Once a day"
+        },
+        {
+        "code":"BD",
+        "value":2,
+        "description": "Twice a day"
+       },
+       {
+        "code":"TID",
+        "value":3,
+        "description": "Thrice a day"
+       },
+       {
+        "code":"QID",
+        "value":4,
+        "description": "Four times a day"
+       },
+       {
+        "code":"SOS",
+        "value":1,
+        "description": "As required"
+       },
+       {
+        "code":"QH",
+        "value":24,
+        "description": "Hourly"
+       },
+       {
+        "code":"Q2H",
+        "value":12,
+        "description": "Every 2 hours"
+       },
+       {
+        "code":"HS",
+        "value":1,
+        "description": "Before Sleep"
+       },
+       {
+        "code":"Q4H",
+        "value":6,
+        "description": "Every 4 hours"
+       },
+       {
+        "code":"1SOD",
+        "value":1,
+        "description": "1 spoon once a day"
+       },
+       {
+        "code":"1SBD",
+        "value":1,
+        "description": "1 spoon twice a day"
+       },
+       {
+        "code":"1STD",
+        "value":1,
+        "description": "1 spoon thrice a day"
+       },
+       {
+        "code":"2SOD",
+        "value":1,
+        "description": "2 spoon once a day"
+       },
+       {
+        "code":"2SBD",
+        "value":1,
+        "description": "2 spoon twice a day"
+       },
+       {
+        "code":"2STD",
+        "value":1,
+        "description": "2 spoon thrice a day"
+       },
+       {
+        "code":"3SOD",
+        "value":1,
+        "description": "3 spoon once a day"
+       },
+       {
+        "code":"3SBD",
+        "value":1,
+        "description": "3 spoon twice a day"
+       },
+       {
+        "code":"3STD",
+        "value":1,
+        "description": "3 spoon thrice a day"
+       },
+       {
+        "code":"1SQW",
+        "value":1,
+        "description": "1 spoon in a week"
+       },
+       {
+        "code":"QW",
+        "value":1,
+        "description": "Once a week"
+       }
+ ]
+
+
