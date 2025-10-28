@@ -1,0 +1,38 @@
+[
+    {
+        "ward_type_no":1,    
+"ward_type_id":"G",
+"ward_type_name":"General Ward"
+	},
+    {
+        "ward_type_no":2, 
+"ward_type_id":"S",
+"ward_type_name":"Semi Private Ward"
+},
+    {
+        "ward_type_no":3, 
+"ward_type_id":"P",
+"ward_type_name":"Private Ward"
+},
+    {
+        "ward_type_no":4, 
+"ward_type_id":"C",
+"ward_type_name":"Casuality Ward"
+},
+    {
+        "ward_type_no":5, 
+"ward_type_id":"ICU",
+"ward_type_name":"ICU Ward"
+    },
+    {"ward_type_no":6, 
+    "ward_type_id":"HDU",
+    "ward_type_name":"HDU Ward"},
+
+    {"ward_type_no":7, 
+    "ward_type_id":"NICU",
+    "ward_type_name":"NICU Ward"},
+
+    {"ward_type_no":8, 
+    "ward_type_id":"PICU",
+    "ward_type_name":"PICU Ward"}
+]

@@ -1,0 +1,190 @@
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+/* ::ng-deep body.adminBg{
+  background:#e2ebf4;
+} */
+.main-content{
+  padding: 10px 20px;
+}
+.main-content{
+font-size: 0.875rem;
+}
+
+.page-header {
+  background: #fff;
+  padding: 12px 20px;
+  margin-bottom: 30px;
+  border-left: 3px solid #09bc8a!important;
+}
+.page-header h4{
+  font-size: 1.125rem;
+}
+.page-header .breadcrumb{
+  background: 0 0;
+  padding: 0;
+}
+
+:host /deep/ .card, .page-header{
+  -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin-bottom: 0.75rem;
+    border: none;
+    -webkit-box-shadow: 0 3px 15px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 3px 15px rgba(0,0,0,.05);
+    box-shadow: 0 3px 15px rgba(0,0,0,.05);      
+}
+
+:host /deep/ .card{
+  margin-bottom: 20px;  
+}
+:host /deep/ .card .card-header{
+  background-color: #001c6b;
+  border-bottom: 2px solid #001c6b;
+    /*background-color: #bcd1ff;  
+    border-bottom: 2px solid #0c2e8a; */
+    padding: .5rem 1.25rem;   
+}
+:host /deep/ .card .card-header, :host /deep/ .card .card-header h4{
+  font-size: 1.0625rem; 
+  margin-bottom: 0px;
+  color:#fff;    
+}
+:host /deep/ .card .card-body{padding: 0.9375rem!important;border: 1px solid rgba(51, 51, 51, 0.25)}
+:host /deep/ .card .card-footer{
+  padding: .25rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+/*mat table start*/
+::ng-deep tr.mat-footer-row, ::ng-deep tr.mat-row, ::ng-deep table thead tr.mat-header-row{
+  height: auto!important;
+}
+::ng-deep .mat-cell{
+  text-align: center;
+}
+::ng-deep td.mat-cell, ::ng-deep td.mat-footer-cell, ::ng-deep th.mat-header-cell{
+  padding: 5px!important;
+}
+::ng-deep .mat-header-cell{
+  font-size: 1rem;
+  font-family: "roboto-bold", sans-serif;
+  background: #d9ecff;
+  color:#222;
+  text-align: center!important;
+}
+::ng-deep .mat-sort-header-container{
+  justify-content: center;
+}
+
+::ng-deep .mat-form-field-wrapper{
+  margin-bottom: -10px!important;
+}
+
+::ng-deep .mat-paginator-navigation-first, ::ng-deep .mat-paginator-navigation-previous, ::ng-deep .mat-paginator-navigation-next, ::ng-deep .mat-paginator-navigation-last{
+  background: #d9ecff;
+  border-radius: 0%!important;
+}
+
+::ng-deep .mat-paginator-page-size-label, ::ng-deep .mat-paginator-range-label, ::ng-deep .mat-paginator, ::ng-deep .mat-paginator-page-size .mat-select-trigger{font-size: 0.875rem;color: #000;}
+
+::ng-deep .mat-paginator-container{
+  padding:0px!important;  
+}
+
+::ng-deep .mat-form-field-appearance-legacy .mat-form-field-infix .mat-select{
+  padding:0px;
+}
+/*mat table end*/
+
+
+
+/*mat forms*/ 
+::ng-deep .mat-form-field{
+display:block!important;
+}  
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-wrapper{
+/*padding: .375rem .75rem;*/
+margin: 0.25em 0 0.25em 0!important;
+}  
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline{
+color: rgba(0, 0, 0, 0.25);
+box-shadow: 2px 2px 5px #d2d2d2;  
+}
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-infix {
+padding: 0.5em 0 0.75em 0;
+}
+::ng-deep .mat-form-field-label-wrapper {
+top: -1.125rem;
+padding-top: 1.125rem;
+}
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline-start, ::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline-end {
+border-radius: 0px!important;
+}
+::ng-deep .btn-pad-form{padding: 0rem .75rem!important;}
+
+::ng-deep .mat-datepicker-toggle.dob-icon-pos .mat-icon-button{
+  position: absolute;
+  top: 28px;
+  right: 16px;
+  color: #fff;
+  background: #09bc8a;
+  border-radius: 0px;
+  height: 38px!important;}
+
+/*mat tab*/
+::ng-deep .mat-tab-body-wrapper{padding: 0.9375rem;}
+::ng-deep .mat-tab-label{
+  opacity: 1!important;
+}
+::ng-deep .mat-tab-label.mat-tab-label-active{
+  color: #da044d;
+}
+/*mat forms end*/
+
+/*mat tab
+::ng-deep .mat-tab-label-container .mat-tab-list{  
+background: linear-gradient(60deg,#ec407a,#d81b60);
+}*/
+
+/*kendo-ui*/
+::ng-deep .k-combobox .k-dropdown-wrap, ::ng-deep .k-multiselect .k-multiselect-wrap, .k-dropdowntree .k-multiselect-wrap{
+  border-color: #ced4da;
+  border-radius: 0px;
+  box-shadow: 2px 2px 5px #d2d2d2;
+}
+
+::ng-deep .form-control{
+  box-shadow: 2px 2px 5px #d2d2d2;
+}
+
+.text-info.deco{
+background: #e2ebf4;
+padding: 5px 8px;
+border: 1px solid #ccd7e2;
+font-size: 0.875rem;  
+margin-bottom: 5px;
+}
+
+label {  
+margin-bottom: .2rem;
+}
+
+/*menu*/
+.menu-bar.mat-toolbar{
+  background: #bcd1ff;
+  }
+  
+  .menu-bar.mat-toolbar-single-row{
+  height:40px;
+  }
+
+@media (max-width: 767px){
+  ::ng-deep .mat-datepicker-toggle.dob-icon-pos .mat-icon-button{
+    top: 25px;    
+    height: 33px!important;
+    line-height: 33px!important;
+  }
+}
